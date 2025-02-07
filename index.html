@@ -3,31 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special - Travel Management System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
+    <title>Travel Management</title>
 </head>
 <body>
     <header>
-        <h1>Special Offers</h1>
-        <p>Discover Exclusive Deals for Your Next Adventure</p>
+        <nav>
+            <h4>Travel Management System</h4>
+            <ul id="menu_bx">
+                <li><a href="./Discover/Discover.html">Discover</a></li>
+                <li><a href="./community/community.html">Community</a></li>
+                <li><a href="./Special/index.html">Special</a></li>
+                <li><a href="./about us/about.html">About Us</a></li>
+                <li><a href="./resgister/resgister.html">Register</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="cont_bx">
+                <h1>The right destination for you and your family</h1>
+                <p>Mr Traveller is a leading Tourism guide and travel agent for Sri Lankan travellers with updated pricing plans for hotels, packages, and travel places.</p>
+                <button>Start your search</button>
+            </div>
+            <div class="trip_bx">
+                <div class="search_bx">
+                    <div class="card">
+                        <h4>Location <i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="text" placeholder="Enter your destination">
+                    </div>
+                    <div class="card">
+                        <h4>Date <i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="date">
+                    </div>
+                    <div class="card">
+                        <h4>People <i class="bi bi-caret-down-fill"></i></h4>
+                        <input type="number" placeholder="How many people?">
+                    </div>
+                    <a href="./explore/explore.html"><input type="button" value="Explore Now"></a>
+                </div>
+
+                <div class="travel_bx">
+                    <h4>Destinations</h4>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>BANGALORE<img src="icon/india.png" alt=""></h3>
+                            <img src="Image/pexels-eugene-dorosh-739409.jpg" alt="">
+                            <div class="btn_city">
+                                <a href="./read/Ban_read.html">Read Now</a>
+                                <h5>Silicon Valley of India <br><span>$46</span></h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>DELHI<img src="icon/india.png" alt=""></h3>
+                            <img src="Image/demodara-2403209.jpg" alt="">
+                            <div class="btn_city">
+                                <a href="./read/delhi_read.html">Read Now</a>
+                                <h5>Demodara <br><span>$870</span></h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>PUNE<img src="icon/india.png" alt=""></h3>
+                            <img src="Image/mirissa.jpg" alt="">
+                            <div class="btn_city">
+                                <a href="./read/pune_read.html">Read Now</a>
+                                <h5>Coconut Tree Hill <br><span>$660</span></h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>HYDERABAD<img src="icon/india.png" alt=""></h3>
+                            <img src="Image/hanthana.jpg" alt="">
+                            <div class="btn_city">
+                                <a href="./read/hyd_read.html">Read Now</a>
+                                <h5>Hanthana Mountain <br><span>$730</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    
-    <section class="special-content">
-        <div class="offer">
-            <h2>Limited Time Deals</h2>
-            <p>Get up to 50% off on selected destinations. Book now and make your travel dreams come true!</p>
+
+    <div class="offers">
+        <h1>Best Package Offers for You</h1>
+        <p>Choose your next destination</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Lotus-Dehli</h3>
+                <div class="img_text">
+                    <img src="Image/lotus_temple.jpg" alt="">
+                    <h4>Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="#">More Info</a>
+                            <h4>$2563</h4>
+                        </div>
+                    </div>
+                    <div class="days">5 Days <br>India</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Burj-Khalifa</h3>
+                <div class="img_text">
+                    <img src="Image/burjkhlifa.jpg" alt="">
+                    <h4>Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="#">More Info</a>
+                            <h4>$3533</h4>
+                        </div>
+                    </div>
+                    <div class="days">3 Days <br>Dubai</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Pyramid-Egypt</h3>
+                <div class="img_text">
+                    <img src="Image/piramids.jpg" alt="">
+                    <h4>Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="#">More Info</a>
+                            <h4>$1653</h4>
+                        </div>
+                    </div>
+                    <div class="days">8 Days <br>Egypt</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Mountain - Vietnam</h3>
+                <div class="img_text">
+                    <img src="Image/mountain.jpg" alt="">
+                    <h4>Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
+                </div>
+                <div class="cont_bx">
+                    <div class="price">
+                        <div class="heart_chat">
+                            <i class="bi bi-heart-fill"><span>86415</span></i>
+                            <i class="bi bi-chat-fill"><span>4586</span></i>
+                        </div>
+                        <div class="info_price">
+                            <a href="#">More Info</a>
+                            <h4>$3263</h4>
+                        </div>
+                    </div>
+                    <div class="days">5 Days <br>Viet</div>
+                </div>
+            </div>
         </div>
-        
-        <div class="offer">
-            <h2>Seasonal Packages</h2>
-            <p>Explore our curated seasonal travel packages designed to give you unforgettable experiences.</p>
-        </div>
-        
-        <button class="special-next-button">Explore More</button>
-    </section>
+    </div>
     
+    <div class="destination">
+        <div class="des_bx">
+            <h4>Our Destinations</h4>
+            <p>Choose your next destination</p>
+            <ul>
+                <li>India</li>
+                <li>USA</li>
+                <li>UAE</li>
+                <li>Germany</li>
+                <li>Canada</li>
+            </ul>
+            <h6>Included: Hotel, Breakfast, Tour Guide, Airport transfer</h6>
+            <button>MORE INFO</button>
+        </div>
+        <div class="img_bx">
+            <img src="Image/aa.jpg" alt="">
+           
+        </div>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Travel Management System. All Rights Reserved.</p>
+        <div class="footer">
+            <h4>Travellfy</h4>
+            <p>&copy; 2024 All Rights Reserved</p>
+            <div class="social">
+                <a href="https://www.facebook.com/groups/Indiantravelagency/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/the_travel_storiesss/"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
